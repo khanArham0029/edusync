@@ -1,5 +1,5 @@
 <template>
-  <img alt="Vue logo" src="./assets/Edusync.png" />
+  <img alt="Edusync logo" src="./assets/Edusync.png" />
   <SignUp />
 </template>
 

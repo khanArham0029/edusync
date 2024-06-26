@@ -1,8 +1,6 @@
 <template>
   <h1>Sign Up</h1>
-  <img alt="Edusync logo" src="./assets/Edusync.png" />
 
-  <SignUp />
   <div class="signupRegister">
     <input type="text" placeholder="Enter Name" />
     <input type="email" placeholder="Enter Email" />
@@ -33,7 +31,7 @@ export default {
 }
 .signupRegister input {
   width: 300px;
-  height: 40px;
+  height: auto;
 }
 
 h1 {

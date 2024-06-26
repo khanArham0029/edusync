@@ -1,14 +1,19 @@
 <template>
   <img alt="Edusync logo" src="./assets/Edusync.png" />
-  <SignUp />
+  <button @click="SignUp">Sign Up</button>
+  <button @click="goToLogin">Login</button>
 </template>
 
 <script>
-import SignUp from './components/SignUp.vue'
 export default {
   name: 'App',
-  components: {
-    SignUp
+  methods: {
+    goToSignUp() {
+      this.$router.push({ name: 'SignUp' })
+    },
+    goToLogin() {
+      this.$router.push({ name: 'Login' })
+    }
   }
 }
 </script>

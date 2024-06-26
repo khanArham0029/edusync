@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Sign Up</h1>
+    <h1>Log In</h1>
     <div class="signup-form">
       <input type="text" placeholder="Enter your name" />
       <input type="email" placeholder="Enter your email" />

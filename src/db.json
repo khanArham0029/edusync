@@ -1,0 +1,38 @@
+{
+    "posts": [
+      {
+        "id": "1",
+        "title": "a title",
+        "views": 100
+      },
+      {
+        "id": "2",
+        "title": "another title",
+        "views": 200
+      },
+      {
+        "id": "b4aa"
+      },
+      {
+        "id": "62f2",
+        "email": "arham@gmail.com",
+        "name": "Arham Akmal",
+        "password": "1234"
+      }
+    ],
+    "comments": [
+      {
+        "id": "1",
+        "text": "a comment about post 1",
+        "postId": "1"
+      },
+      {
+        "id": "2",
+        "text": "another comment about post 1",
+        "postId": "1"
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
